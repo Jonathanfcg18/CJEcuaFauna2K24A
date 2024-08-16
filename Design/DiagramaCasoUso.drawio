@@ -1,0 +1,88 @@
+<mxfile host="65bd71144e">
+    <diagram id="eMP-LIbkkJHZeF5Jcy0h" name="Page-1">
+        <mxGraphModel dx="832" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Entomólogo experto en hormigas" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="242" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Persona" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="242" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="endArrow=block;endSize=16;endFill=0;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="2" target="6">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="255" y="266" as="sourcePoint"/>
+                        <mxPoint x="110" y="383.8125" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="Crear hormigas larvas" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="402" y="80" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Alimentar una hormiga larva" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="402" y="302" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Modificar los datos de una hormiga larva" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="402" y="410" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Mostrar datos puntuales de una hormiga larva" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="402" y="190" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="endArrow=open;endFill=1;endSize=12;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="2" target="10">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="255" y="204" as="sourcePoint"/>
+                        <mxPoint x="390" y="105" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="15" value="" style="endArrow=open;endFill=1;endSize=12;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="2" target="13">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="265" y="214" as="sourcePoint"/>
+                        <mxPoint x="400" y="115" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="" style="endArrow=open;endFill=1;endSize=12;html=1;entryX=0.014;entryY=0.4;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;entryPerimeter=0;" edge="1" parent="1" source="2" target="11">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="275" y="224" as="sourcePoint"/>
+                        <mxPoint x="410" y="125" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="" style="endArrow=open;endFill=1;endSize=12;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="2" target="12">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="285" y="234" as="sourcePoint"/>
+                        <mxPoint x="420" y="135" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="Sistema" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="660" y="242" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="endArrow=open;endFill=1;endSize=12;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="18" target="10">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="280" y="277.204081632653" as="sourcePoint"/>
+                        <mxPoint x="412" y="235" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="" style="endArrow=open;endFill=1;endSize=12;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="18" target="13">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="670" y="264.2932330827067" as="sourcePoint"/>
+                        <mxPoint x="552" y="125" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="" style="endArrow=open;endFill=1;endSize=12;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="18" target="11">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="680" y="274.2932330827067" as="sourcePoint"/>
+                        <mxPoint x="562" y="135" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="" style="endArrow=open;endFill=1;endSize=12;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="18" target="12">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="690" y="284.2932330827067" as="sourcePoint"/>
+                        <mxPoint x="572" y="145" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="DCU: CJEcuaFauna2K24A" style="shape=umlFrame;whiteSpace=wrap;html=1;width=170;height=40;boundedLbl=1;verticalAlign=middle;align=left;spacingLeft=5;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="30" width="270" height="470" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
