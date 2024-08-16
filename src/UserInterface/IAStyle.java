@@ -27,9 +27,7 @@ public abstract class IAStyle {
     public static final Cursor CURSOR_HAND    = new Cursor(Cursor.HAND_CURSOR);
     public static final Cursor CURSOR_DEFAULT = new Cursor(Cursor.DEFAULT_CURSOR);
 
-    public static final URL URL_MAIN  = IAStyle.class.getResource("/UserInterface/Resource/Img/IABot.png");
-    public static final URL URL_LOGO  = IAStyle.class.getResource("/UserInterface/Resource/Img/Logo.png");
-    public static final URL URL_SPLASH= IAStyle.class.getResource("/UserInterface/Resource/Img/Splah.png");
+    public static final URL CJURL_HORMIGA  = IAStyle.class.getResource("/UserInterface/Resource/Img/Hormiga.jpg");
 
     public static final CompoundBorder createBorderRect(){
         return BorderFactory.createCompoundBorder(  new LineBorder(Color.lightGray),
